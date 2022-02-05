@@ -1,3 +1,20 @@
+After running `npm run start`
+
+```
+
+types.js:27 Uncaught TypeError: (0 , superstruct_1.string) is not a function
+    at Object../node_modules/starknet/dist/utils/typedData/types.js (types.js:27:1)
+    at Object.options.factory (react refresh:6:1)
+    at __webpack_require__ (bootstrap:24:1)
+    at fn (hot module replacement:61:1)
+    at Object../node_modules/starknet/dist/utils/typedData/utils.js (utils.js:5:1)
+    at Object.options.factory (react refresh:6:1)
+    at __webpack_require__ (bootstrap:24:1)
+    at fn (hot module replacement:61:1)
+    at Object../node_modules/starknet/dist/utils/typedData/index.js (index.js:43:1)
+    at Object.options.factory (react refresh:6:1)
+  ```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
