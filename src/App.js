@@ -1,9 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
-import starknet from "starknet";
 
 function App() {
-  const isHex = starknet.number.isHex("0x1");
   return (
     <div className="App">
       <header className="App-header">
